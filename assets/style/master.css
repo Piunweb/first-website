@@ -1,0 +1,478 @@
+.container{
+    width: 100%;
+    height: auto;
+    /* overflow-x: hidden; */
+    position: relative;
+}
+.container>nav>.order{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    background-color: aqua;
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.container>nav>.order>nav{
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.container>nav>.order>nav>ul{
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(0, 89, 255); */
+}
+.container>nav>.order>nav>ul>li{
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0, 89, 255);
+}
+.container>nav>.order>nav>ul>li>a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 89, 255) ;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid rgb(0, 89, 255);
+}
+.container>nav>.order>nav>ul>li:hover a{
+    background-color: white;
+    color: rgb(0, 89, 255);
+}
+
+
+.head{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 89, 255); 
+    justify-content: center;
+    align-items: center;
+}
+.head>h4{
+    font-size: normal;
+    color: white;
+}
+.container>nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>nav>ul{
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    padding-right: 500px;
+}
+.container>nav>ul>li{
+    margin: 0 15px;
+}
+.container>nav>ul>li:hover a{
+    color: rgb(0, 89, 255);
+}
+.container>nav>ul>li>a{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/Cold-Brew-Collection-2500x998.jpg);
+    background-size: 110% 100%;
+    position: relative;
+}
+.header>h5{
+    position: absolute;
+    bottom: 200px;
+    left : 30px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.header>h1:nth-of-type(1){
+    position: absolute;
+    bottom: 140px;
+    left : 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.header>h1:nth-of-type(2){
+    position: absolute;
+    bottom: 80px;
+    left : 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.header>div{
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.header>div>nav{
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.header>div>nav>ul{
+    width: 150px;
+    height: 30px;
+    background-color:rgb(0, 89, 255) ;
+    justify-content: center;
+    align-items: center;
+}
+.header>div>nav>ul>li{
+    width: 150px;
+    height: 30px;
+    background-color:rgb(0, 89, 255) ;
+    justify-content: center;
+    align-items: center;
+}
+.header>div>nav>ul>li>a{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;background-color: rgb(0, 89, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header>div>nav>ul>li:hover a{
+    color: rgb(0, 89, 255);
+    background-color: white;
+}
+/* ****** */
+
+
+.about{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    justify-content: space-evenly;
+}
+.about> .wrap{
+    width: 400px;
+    height: 400px;
+}
+.wrap>figure{
+   background-image: url(../img/joe-coffee-burundi-turihamwe-1875x1875-1-960x960.jpg);
+   width: 100%;
+   height: 100%;
+   background-size: 100% 100%;
+   background-size: cover;
+   background-position: -15px 0;
+   position: relative;
+}
+.wrap:nth-of-type(2)>figure{
+    background-image: url(../img/Atlas_Collection_WilmarGuarnizo2022Laurina-Honey_1875x1875-copy-scaled.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: -15px 0;
+    position: relative;
+}
+.wrap:nth-of-type(2)>figure .box{
+    width:100% ;
+    height: 10%;
+    background-color: rgb(214, 101, 120);
+    position: absolute;
+    bottom: 0;
+    display: none;
+    transition: 0.4s ;
+}
+.wrap:nth-of-type(3)>figure{
+    background-image: url(../img/joe-coffee-instant-daily-960x960.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: -15px 0;
+    position: relative;
+}
+.wrap:nth-of-type(3)>figure .box{
+    width:100% ;
+    height: 10%;
+    background-color: rgb(86, 156, 214);
+    position: absolute;
+    bottom: 0;
+    display: none;
+    transition: 0.4s ;
+}
+.wrap>figure> .box{
+    width:100% ;
+    height: 10%;
+    background-color: rgb(0, 89, 255);
+    position: absolute;
+    bottom: 0;
+    display: none;
+    transition: 0.4s ;
+}
+.wrap>figure> .box> h3, h4{
+    text-transform: capitalize;
+    color: white;
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+/* .about>figure:hover .box{ */
+    /* display: block; */
+/* } */
+.wrap>nav{
+    width: 100%;
+    margin: 20px 0;
+}
+.wrap>nav>ul{
+    width: 100%;
+}
+.wrap>nav>ul>li{
+    width: 100%;
+}
+.wrap>nav>ul>li>a{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(16, 16, 240);
+}
+.wrap:nth-of-type(2)>nav>ul>li>a{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(214, 101, 120);
+}
+.wrap:nth-of-type(3)>nav>ul>li>a{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(86, 156, 214);
+}
+.wrap>nav>ul>li>a>h3{
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: bold;  
+}
+.wrap>div{
+    padding-bottom: 120px;
+    font-weight: bold;
+}
+.wrap>nav>ul>li:hover a{
+    color: grey ;
+}
+.wrap:hover .box{
+    display: block;
+}
+.wrap:nth-of-type(2):hover .box{
+    display: block;
+}
+.wrap:nth-of-type(3):hover .box{
+    display: block;
+}
+
+
+/* ******* */
+.main{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    background-image: url(../img/Subscriptions-2500x998.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: 100% 100%;
+    background-size: cover;
+    margin-top: 50px;
+    background-position: center;
+    position: relative;
+}
+.back>h5{
+    position: absolute;
+    top: 50px;left: 20px;
+    font-size: 20px;
+}
+.back>h1{
+    position: absolute;
+    top: 100px;left: 20px;
+    font-weight: bold;
+    font-size: 70px;
+}
+.back>ul{
+    position: absolute;
+    top: 300px;left: 50px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.article{
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.article>figure{
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/Classes-Block-960x720.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    position: relative;
+}
+.article>figure:nth-of-type(2){
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/Wholesale-Block-960x720.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    position: relative;
+}
+.article>figure:nth-of-type(3){
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    background-image: url(../img/Catering-Block-960x720\ \(1\).jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    position: relative;
+}
+.article>figure>nav{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -100px;
+    /* text-align: 10px; */
+}
+.article>figure:nth-of-type(2)>nav{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -90px;
+    /* text-align: 10px; */
+}
+.article>figure:nth-of-type(3)>nav{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -90px;
+    /* text-align: 10px; */
+}
+.article>figure>nav>ul>li{
+    width: 100%;
+    height: auto;
+}
+.article>figure>nav>ul>li>a{
+    width: 100%;
+    height: auto;
+    color: rgb(54, 51, 51);
+    text-transform: capitalize;
+}
+.article>figure>nav>ul>li>a>h3{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.article>figure>nav>ul>li>a>h3>p{
+/* margin: 20px 0; */
+    font-weight: bold;
+    font-size: 20px;
+}
+.article>figure>nav>ul>li:hover a{
+    color: rgb(117, 198, 245);
+}
+
+/* ******* */
+
+.foot{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(140, 220, 240);
+    position: relative;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.foot>nav>ul:nth-of-type(1){
+    flex-direction: column;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+.foot>nav>ul:nth-of-type(1){
+    flex-direction: column;
+}
+.foot>nav>ul:nth-of-type(2){
+    flex-direction: column;
+}
+.foot>nav>ul:nth-of-type(2){
+    position: absolute;
+    top: 30px;
+    right: 150px;
+}
+.foot>nav>ul>li{
+    flex-direction: column;
+    line-height: 50x;
+    margin: 8px 0;
+}
+.foot>nav>ul>li:first-of-type{
+    flex-direction: column;
+    line-height: 50x;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.foot>nav>ul>li>a{
+    flex-direction: column;
+    line-height: 50x;
+    font-size: 20px; 
+    color: white;
+    text-transform: capitalize;
+}
+.foot>nav>ul>li:hover a{
+    color: grey;
+}
+.foot>form{
+    position: absolute;
+    right: 300px;
+    bottom: 50px;
+}
+.foot>form>label{
+    font-size: 40px;
+    color: rgb(83, 83, 233);
+    text-transform: capitalize;
+}
+.foot>form>input{
+    font-size: 40px;
+    background-color: rgb(140, 220, 240);
+    border: 1px solid blue;
+}
